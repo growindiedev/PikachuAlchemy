@@ -1,8 +1,8 @@
 async function main() {
   // if you changed the name of the contract, be sure to update this here!
-  const MyToken = await hre.ethers.getContractFactory("MyToken");
+  const Pikachu = await hre.ethers.getContractFactory("Pikachu");
 
-  const nft = await MyToken.deploy();
+  const nft = await Pikachu.deploy();
 
   await nft.deployed();
 
